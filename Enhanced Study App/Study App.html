@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Study App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Enhanced Study App</h1>
+    <div class="section">
+      <h2>Notepad</h2>
+      <textarea id="notepad" placeholder="Write your notes here..."></textarea>
+      <button id="saveNoteBtn">Save Note</button>
+    </div>
+    <div class="section">
+      <h2>To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Add new task">
+      <button id="addTaskBtn">Add Task</button>
+      <ul id="taskList"></ul>
+    </div>
+    <div class="section">
+      <h2>Pomodoro Timer</h2>
+      <div id="timer">25:00</div>
+      <button id="startTimerBtn">Start</button>
+      <button id="resetTimerBtn">Reset</button>
+    </div>
+    <div class="section">
+      <h2>Flashcards</h2>
+      <div id="flashcard">
+        <div id="question"></div>
+        <div id="answer" class="hidden"></div>
+      </div>
+      <button id="showAnswerBtn">Show Answer</button>
+      <button id="nextCardBtn">Next Card</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
